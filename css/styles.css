@@ -320,16 +320,23 @@ ul {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   color: var(--tertiary-text-color);
   background-color: var(--secondary-bg-color);
 }
 
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+
   color: var(--tertiary-text-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
+  outline: 1px solid tomato;
 }
 
 .logo-accent,
@@ -344,6 +351,9 @@ ul {
 }
 
 .contact-footer {
+  display: inline-block;
+  margin-top: 9px;
+
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }

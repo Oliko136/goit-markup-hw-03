@@ -175,6 +175,7 @@ ul {
 }
 
 .team-card {
+  width: 270px;
   padding-bottom: 30px;
   outline: 1px solid tomato;
 }
@@ -235,6 +236,7 @@ ul {
 }
 
 .project-card {
+  width: 370px;
   padding-bottom: 20px;
   outline: 1px solid tomato;
 }

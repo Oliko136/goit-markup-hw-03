@@ -145,6 +145,8 @@ ul {
 }
 
 .features-name {
+  margin-bottom: 10px;
+
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -157,6 +159,8 @@ ul {
 }
 
 .section-title {
+  margin-bottom: 50px;
+
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -170,11 +174,23 @@ ul {
   background-color: var(--tertiary-bg-color);
 }
 
+.team-card {
+  padding-bottom: 30px;
+  outline: 1px solid tomato;
+}
+
 .team-list {
   list-style: none;
 }
 
+.team-text {
+  margin-top: 30px;
+  outline: 2px solid black;
+}
+
 .team-name {
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -187,10 +203,17 @@ ul {
 }
 
 .filter-btns {
+  margin-bottom: 50px;
   list-style: none;
 }
 
 .filter-btn {
+  display: inline-block;
+  min-width: 73px;
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
+
   background-color: var(--tertiary-bg-color);
   border: none;
   cursor: pointer;
@@ -211,12 +234,25 @@ ul {
   list-style: none;
 }
 
+.project-card {
+  padding-bottom: 20px;
+  outline: 1px solid tomato;
+}
+
 .project-link {
   text-decoration: none;
   color: inherit;
 }
 
+.project-text {
+  margin-top: 20px;
+  padding-left: 24px;
+  outline: 2px solid black;
+}
+
 .project-name {
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;

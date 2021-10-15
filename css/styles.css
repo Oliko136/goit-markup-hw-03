@@ -14,12 +14,25 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
   outline: 1px solid tomato;
+}
+
+.section {
+  background-color: turquoise;
 }
 
 .logo {

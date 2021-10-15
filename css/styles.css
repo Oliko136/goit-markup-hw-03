@@ -35,12 +35,13 @@ p,
 ul {
   margin: 0;
 }
-
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  outline: 1px solid tomato;
 }
 
 .section {

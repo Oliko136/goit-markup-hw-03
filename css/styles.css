@@ -45,6 +45,8 @@ ul {
 
 .section {
   background-color: turquoise;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .logo {
@@ -101,6 +103,8 @@ ul {
 }
 
 .hero-title {
+  margin-bottom: 30px;
+
   color: var(--tertiary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -130,6 +134,10 @@ ul {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
+}
+
+.features {
+  padding-bottom: 0;
 }
 
 .features-list {

@@ -35,9 +35,15 @@ p,
 ul {
   margin: 0;
 }
+
+img {
+  display: block;
+}
+
 .page-header {
   border-bottom: 1px solid #ececec;
 }
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -45,7 +51,6 @@ ul {
 }
 
 .section {
-  background-color: turquoise;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -64,16 +69,11 @@ ul {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
-  outline: 1px solid tomato;
 }
 
 .site-nav {
   list-style: none;
   display: flex;
-}
-
-.site-nav .item {
-  outline: 1px solid tomato;
 }
 
 .site-nav .item + .item {
@@ -106,10 +106,6 @@ ul {
   list-style: none;
   display: flex;
   margin-left: auto;
-}
-
-.contacts-list .item {
-  outline: 1px solid tomato;
 }
 
 .contacts-list .item + .item {
@@ -175,7 +171,6 @@ ul {
 
 .features {
   padding-bottom: 0;
-  background-color: khaki;
 }
 
 .features-list {
@@ -220,17 +215,23 @@ ul {
 
 .team-card {
   width: 270px;
-  padding-bottom: 30px;
-  outline: 1px solid tomato;
+  border-radius: 0 0 4px 4px;
+
+  background-color: #ffffff;
 }
 
 .team-list {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
 }
 
 .team-text {
-  margin-top: 30px;
-  outline: 2px solid black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  text-align: center;
 }
 
 .team-name {
@@ -347,7 +348,6 @@ ul {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
-  outline: 1px solid tomato;
 }
 
 .logo-accent,

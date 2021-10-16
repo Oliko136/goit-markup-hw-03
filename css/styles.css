@@ -283,13 +283,25 @@ img {
 }
 
 .projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+
   list-style: none;
 }
 
 .project-card {
-  width: 370px;
-  padding-bottom: 20px;
-  outline: 1px solid tomato;
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.project-card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.project-card:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
 
 .project-link {
@@ -298,9 +310,10 @@ img {
 }
 
 .project-text {
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 24px;
-  outline: 2px solid black;
+  border: 1px solid #eeeeee;
 }
 
 .project-name {
